@@ -1,0 +1,180 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.advantages__text span {
+    font-size: 10px;
+    line-height: 20px;
+}.advantages__text strong {
+    font-size: 16px;
+    line-height: 16px;
+}
+.advantages__img__1 .my, .advantages__img__2 .my, .advantages__img__3 .my, .advantages__img__4 .my {
+    font-size: 40px;
+}  
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.proffesional__img__item {
+    text-align: center;
+}
+.proffesional h2 {
+    font-size: 40px;
+}
+.contacts__tabs .tabs span {
+    font-size: 14px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+.logo, .contacts__header .wrapper, .header__title h1, .header__title p {
+    text-align: center;
+}
+.header__title h1 {
+    font-size: 50px;
+    line-height: 38px;
+}
+.discounts__header .tabs span{
+    font-size: 16px;
+    padding: 7px 7px;
+}
+.proffesional__img__item {
+    text-align: center;
+}
+.proffesional h2 {
+font-size: 22px;
+}
+.proffesional__text__item h3 {
+    font-size: 20px;
+}
+.proffesional__text__item p {
+    
+}
+.proffesional__img__item i {
+    font-size: 80px;
+}
+.intensiv h4 {
+    font-size: 20px;
+}
+.contacts__tabs .tabs span {
+    font-size: 12px;
+}
+.contacts .contacts__text span {
+    font-size: 50px;
+}
+.contacts .contacts__tabs .tabs span {
+    font-size: 16px;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+.logo, .contacts__header .wrapper, .header__title h1, .header__title p {
+    text-align: center;
+}
+.advantages__text strong {
+    font-size: 14px;
+}
+.tab_content .tab_item {
+    font-size: 30px;
+}
+.header__title h1 {
+    font-size: 45px;
+    line-height: 35px;
+}
+.discounts__header .tabs span{
+    font-size: 11px;
+    padding: 4px 4px;
+}
+.discounts__header .tab_item li {
+    font-size: 14px;
+}
+.btn {
+  font-size: 12px;  
+}
+.contacts .contacts__text span {
+    font-size: 40px;
+}
+    .contacts .contacts__tabs .tabs span {
+    font-size: 12px;
+}
+footer {
+    padding-bottom: 60px;
+    padding-top: 0;
+}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+.tab_content .tab_item {
+    font-size: 28px;
+}
+.header__title h1 {
+    font-size: 40px;
+}
+.discounts__header .tabs span {
+    font-size: 10px;
+    padding: 1px;
+}
+.discounts__header .tab_item li {
+    font-size: 10px;
+}
+.btn {
+  font-size: 10px;  
+}
+.advantages__text {
+    text-align: center;
+}
+.proffesional h2 {
+    font-size: 35px;
+}
+.proffesional__form {
+   margin: 0 auto;
+}
+.rewievs h3 {
+    font-size: 40px;
+}
+.intensiv h4 {
+    font-size: 20px;
+}
+.contacts .contacts__tabs .tabs span {
+    font-size: 12px;
+}
+.contacts .contacts__text span {
+    font-size: 40px;
+}
+footer {
+    padding-bottom: 40px;
+    padding-top: 0;
+}
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

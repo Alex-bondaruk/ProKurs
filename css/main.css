@@ -1,0 +1,475 @@
+body {
+    font-family: "RobotoRegular", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    min-width: 320px;
+    position: relative;
+    line-height: 1.42857;
+    -webkit-font-smoothing: antialised; 
+    overflow-x: hidden;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+    color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+    color: black; 
+}
+
+h1 {
+    color: #fff;
+    font: 300 61px/30px "CleanvertisingLight", sans-serif;
+    margin-top: 73px;
+    text-transform: capitalize;
+}
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+/*Header*/
+
+header {
+    min-height: 640px;
+    background-image:url(../images/bg-header.jpg); 
+    background-position: top center; 
+    background-size: cover;
+    padding-top: 32px;
+    padding-bottom: 40px;
+}
+
+.logo {
+    color: #fff;
+    font:700 40px/56px "RobotoRegular", sans-serif;
+}
+.logo a {
+    color: #fff;
+    text-decoration: none;
+}
+.contacts__header .wrapper {
+    text-align: right;
+    color: #fff;
+    line-height: 45px;
+    font-family: "RobotoRegular", sans-serif;
+    font-size: 16px;
+}
+.tabs span.tab { 
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.tab_content .tab_item {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.header__title p {
+    color: #fff;
+    font: 300 35px/30px "CleanvertisingLight", sans-serif;
+}
+
+.discounts__header .tabs span {
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+    color: #fff;
+    padding: 24px 15px 17px;
+    background-color: rgba(255, 255, 255, 0.25);
+    font: 700 16px "RobotoBold", sans-serif;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+.discounts__header .tab_content {
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 12px 18px 15px;
+}
+
+.tab_item li {
+    position: relative;
+    padding-left: 60px;
+    color: #000;
+    font: 700 18px/25px "RobotoBold", sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+}
+.tab_item i {
+    position: absolute;
+    left: 30px;
+    top:0;
+    color: #746e6b;
+}
+.button__header {
+    text-align: right;
+}
+.btn {
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 47px;
+    padding: 18px 35px;
+    color:#fff;
+    background-color: #9b1818;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2%;
+    font: 700 16px/12px "RobotoBold", sans-serif;
+}
+.btn:hover {
+    transform: scale(1.1) translateY(-10%);
+    background: #f69302;
+    border-radius: 5%;
+    outline: none;
+}
+a.btn {
+    text-decoration: none; 
+    color:#fff;
+}
+
+.contacts__header .wrapper .active { text-decoration: underline; }
+.discounts__header .wrapper .active { 
+    color: #000;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+/*/Header*/
+
+/*Block-advantages*/
+
+.advantages{
+    background-color: #003469;
+    background-image: -webkit-linear-gradient(bottom, #e8eff7 0%, #c6d8ee 100%);
+    background-image: -o-linear-gradient(bottom, #e8eff7 0%, #c6d8ee 100%);
+    background-image: linear-gradient(to top, #e8eff7 0%, #c6d8ee 100%);
+    padding: 50px 0 43px;
+}
+.advantages__img__1, .advantages__img__2, .advantages__img__3, .advantages__img__4, .advantages__text  {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+.advantages__text span, .advantages__text strong {
+    display: block;   
+}
+ .advantages__img__1 .my {
+    color: #003469;
+    font: 700 58px/55px "RobotoBold", sans-serif;
+    letter-spacing: -10px;
+    margin-right: 10px;
+}
+.advantages__img__2 .my, .advantages__img__3 .my {
+    color: #000;
+    font: 400 58px/55px "myFont-icon", sans-serif;
+}
+.advantages__img__4 .my {
+    color: #003469;
+    font: 400 58px/55px "myFont-icon", sans-serif;
+}
+.advantages__text span, .advantages__text strong {
+    color: #003469;
+    font-family: "CleanvertisingLight", sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.advantages__text span {
+    font-size: 14px;
+    line-height: 36px;
+}
+
+.advantages__text strong {
+    font-size: 20px;
+    line-height: 29px;
+}
+/*/Block-advantages*/
+/*Block-proffesional*/
+
+.proffesional {
+   padding: 65px 0 85px; 
+}
+.proffesional h2 {
+    color: #003469;
+    font: 300 50px/56px "CleanvertisingLight", sans-serif;
+    text-align: center;
+}
+.proffesional__img__item i {
+    color: #9b1818;
+    font-size: 100px;
+    line-height: 110px;
+}
+
+.proffesional__text__item h3 {
+    display: inline-block;
+    color: #9b1818;
+    font: 900 30px/18px "CleanvertisingLight", sans-serif;
+    margin-bottom: 0;
+}
+.proffesional__text__item p {
+    display: inline-block;
+    color: #333;
+    font: 400 16px/24px "RobotoRegular", sans-serif;
+}
+.proffesional__form {
+    background-color: #f7f7f7;
+    border: 5px solid #67bc5c;
+    padding: 33px 25px 48px;
+}
+.proffesional__form h3 {
+    color: #444;
+    font: 700 22px/26px "RobotoBold", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+.proffesional__form label, {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.proffesional__form input, .proffesional__form select {
+    width: 100%;
+    height: 45px;
+    text-indent: 12px;
+    background-color: #fff;
+    color: #666;
+    font: 400 20px/26px;
+    border: 1px solid #d9d9d9;
+    box-shadow: inset 0 0 21px rgba(0, 0, 0, 0.06);
+}
+.proffesional__form input:focus {
+    color: #666;
+    border: 3px solid #67bc5c;
+}
+.button__proffesional {
+    text-align: center;
+}
+.button__proffesional button {
+    margin: 40px 0 0 0;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 47px;
+    padding: 18px 35px;
+    color:#fff;
+    background-color: #67bc5c;
+    text-transform: uppercase;
+    border-radius: 2%;
+    font: 700 16px/12px "RobotoBold", sans-serif;
+}
+.button__proffesional button:hover {
+    transform: scale(1.1) translateY(-10%);
+    background: #f69302;
+    border-radius: 5%;
+    outline: none;
+}
+/*/Block-proffesional*/
+/*rewievs*/
+.rewievs {
+    background-image: url(../images/bg-center.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 550px;
+    background-repeat: no-repeat;
+}
+.rewievs h3 {
+   text-align: center;
+    color: #fff;
+    font: 300 50px/56px "CleanvertisingLight", sans-serif;
+    padding-top: 40px;
+}
+.rewievs__img {
+    text-align: center;
+}
+.image__rew {
+    text-align: center;
+}
+.owl-carousel .rewievs__item img {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 10px solid #6a6a6a;
+}
+.rewievs__item h4 {
+    color: #fff;
+    font: italic 22px/56px "Times New Roman", sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 0;
+}
+.line {
+    text-align: center;
+    width: 80px;
+    height: 1px;
+    background-color: #cea380;
+    margin: 0 auto;
+}
+.rewievs__text  p {
+    display: inline-block;
+    margin-left: 16.66%;
+    margin-top: 30px;
+    width: 66.66%;
+    text-align: center;
+    color: #fff;
+    font: 400 15px/24px "RobotoRegular" sans-serif;
+    margin-bottom: 70px;
+}
+.owl-nav .owl-prev {
+    background-image: url(../images/prewier.png);
+    position: absolute;
+    top: 50px; 
+    width:35px;
+    height:140px;
+}
+ .owl-nav .owl-next {
+    background-image: url(../images/prewier.png);
+    position: absolute;
+    right: 0;
+    top: 50px; 
+    width:35px;
+    height:140px;
+    background-position: top right;
+}
+/*/rewievs*/
+/*intensiv*/
+.intensiv {
+    background-image: url(../images/bg-red.jpg);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+.intensiv h4 {
+    color: #fff;
+    font: 400 26px/36px "RobotoRegular", sans-serif;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 15px;
+}
+.btn__intensiv {
+    text-align: center;
+}
+.button__intensiv {
+    height: 47px;
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 15px 35px;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2%; 
+}
+.button__intensiv:hover {
+ transform: scale(1.1) translateY(-10%);
+    background: #f69302;
+    border-radius: 5%;
+    outline: none;
+}
+a.button__intensiv {
+    font: 700 16px/12px "RobotoBold", sans-serif;
+    text-decoration: none; 
+    color:#000;
+    text-transform: uppercase;
+}
+/*/intensiv*/
+/*Contacts*/
+.contacts {
+    text-align: center;
+    padding-top: 47px;
+    padding-bottom: 30px;
+}
+.contacts .contacts__text {
+    display: inline-block; 
+}
+.contacts .contacts__text span {
+    vertical-align: middle; 
+    color: #111;
+    font: 300 56px/30px "CleanvertisingLight", sans-serif;
+    margin-bottom: 0;
+}
+.contacts__tabs {
+    display: inline-block; 
+    vertical-align: middle; 
+    height: 47px;
+    background-color: #9b1818;
+    border-radius: 3px;
+    padding: 20px 5px 40px;
+}
+.contacts__tabs .tabs span {
+    font: 700 16px "RobotoBold", sans-serif;
+    text-transform: uppercase;
+    transition: all .5s ease;
+    cursor: pointer;
+    color:#fff;
+    padding: 15px 35px 15px;
+}
+
+.contacts__tabs .tabs span.tab.active {
+    color: #6d0a0a;
+    background-color: #fff;
+    border-radius: 3px;
+}
+.contacts .tab_content .tab_item {
+    text-align: center;
+    color: #333;
+    font: 400 18px/24px "RobotoRegular", sans-serif;
+    padding: 20px;
+}
+.map {
+    margin-top: 5px;
+    background-color: #e1d6b0;
+    height: 500px;
+}
+/*/Contacts*/
+/*Footer*/
+footer {
+    text-align: center;
+    padding-bottom: 188px;
+    padding-top: 88px;
+}
+footer h3 {
+    color: #000;
+    font: 300 50px/56px "CleanvertisingLight", sans-serif;
+}
+footer p {
+    color: #333;
+    font: 400 18px/24px "RobotoRegular", sans-serif; 
+    padding-bottom: 35px;
+}
+footer .tabs span {
+    color: #9b1818;
+    font: 400 16px/45px "RobotoRegular", sans-serif;
+}
+footer .tabs span.tab.active {
+   text-decoration: underline;
+}
+footer .tab_content .tab_item {
+    color: #9b1818;
+    font: 700 35px/45px "RobotoBold", sans-serif;
+}
+.footer__btn {
+    padding-top: 40px;
+}
+.footer__button {
+    border: none;
+    display: inline-block;
+    cursor: pointer;
+    height: 47px;
+    padding: 18px 35px;
+    color:#fff;
+    background-color: #9b1818;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 2%;
+    font: 700 16px/12px "RobotoBold", sans-serif;
+}
+.footer__button:hover {
+transform: scale(1.1) translateY(-10%);
+    background: #f69302;
+    border-radius: 5%;
+    outline: none;
+}
+a.footer__button {
+    text-decoration: none; 
+    color:#fff;
+}
+/*/Footer*/
